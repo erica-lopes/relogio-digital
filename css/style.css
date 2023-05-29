@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-image: radial-gradient(
+    circle at 45.81% 2.09%,
+    #ff7694 0,
+    #ff7a82 3.33%,
+    #ff8072 6.67%,
+    #ff8662 10%,
+    #ff8e53 13.33%,
+    #ff9545 16.67%,
+    #ff9d38 20%,
+    #f9a42b 23.33%,
+    #ebab21 26.67%,
+    #dcb119 30%,
+    #cdb717 33.33%,
+    #bcbc1c 36.67%,
+    #aac126 40%,
+    #97c533 43.33%,
+    #82c941 46.67%,
+    #6acc50 50%,
+    #4ccf60 53.33%,
+    #11d171 56.67%,
+    #00d382 60%,
+    #00d494 63.33%,
+    #00d5a7 66.67%,
+    #00d6b9 70%,
+    #00d6cc 73.33%,
+    #00d6de 76.67%,
+    #00d5ef 80%,
+    #00d5ff 83.33%,
+    #00d3ff 86.67%,
+    #00d1ff 90%,
+    #00cfff 93.33%,
+    #00ccff 96.67%,
+    #00c8ff 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 200px;
+  width: 550px;
+  background-color: transparent;
+  border-radius: 3px;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+.clock > div {
+  height: 170px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 10px;
+  background-color: rgba(5, 5, 5, 0.8);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+  letter-spacing: 3px;
+}
+
+.clock span {
+  font-weight: bolder;
+  font-size: 60px;
+}
+
+.clock span.time {
+  font-size: 10px;
+}
